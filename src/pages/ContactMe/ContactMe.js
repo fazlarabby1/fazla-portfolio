@@ -24,7 +24,7 @@ const ContactMe = () => {
                             <label className="label">
                                 <span className="label-text">Your Query</span>
                             </label>
-                            <textarea className='h-20 rounded' name="description" id="" cols="30" rows="10"></textarea>
+                            <textarea className='h-28 rounded' name="description" id="" cols="30" rows="10"></textarea>
                         </div>
                         <input type="submit" className='btn btn-primary btn-lg mt-3'/>
                     </form>

@@ -8,7 +8,7 @@ const ProjectsDetails = () => {
             .then(data => setProjects(data))
     }, []);
     return (
-        <div className='mt-10 mb-20'>
+        <div className='mt-10 mb-16'>
             <h1 className='text-3xl text-white text-center font-semibold my-5'>My Works</h1>
             
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 xl:w-[1350px] mx-auto'>
