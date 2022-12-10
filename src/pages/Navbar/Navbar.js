@@ -1,11 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navItems =
         <>
-            <li className='lg:mr-5'><a>Item 1</a></li>
-            <li><a>Item 3</a></li>
             <li><a href='https://drive.google.com/file/d/1cPmnkNYb82rdasLplOEHWF2Ob-vpiQRr/view?usp=share_link' className="btn" rel="noreferrer" target="_blank">Resume</a></li>
         </>
     return (
