@@ -1,4 +1,5 @@
 import React from 'react';
+import portfolioImg from '../../assets/images/portfolio.png'
 
 const Navbar = () => {
     const navItems =
@@ -16,7 +17,12 @@ const Navbar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <div className="avatar">
+                    <div className="w-14 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                        <img src={portfolioImg} alt=''/>
+                    </div>
+                </div>
+                <a className="btn btn-ghost normal-case text-xl">Fazla Rabby</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
