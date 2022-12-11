@@ -6,6 +6,7 @@ const Navbar = () => {
     const navItems =
         <>
             <li><NavLink className={({ isActive }) => isActive ? 'underline underline-offset-4 font-bold text-warning' : ''} to='/'>Home</NavLink></li>
+            <li><NavLink className={({ isActive }) => isActive ? 'underline underline-offset-4 font-bold text-warning' : ''} to='/aboutMe'>About Me</NavLink></li>
             <li><NavLink className={({ isActive }) => isActive ? 'underline underline-offset-4 font-bold text-warning' : ''} to='/blogs'>Blogs</NavLink></li>
             <li><a href='https://drive.google.com/file/d/1cPmnkNYb82rdasLplOEHWF2Ob-vpiQRr/view?usp=share_link' className="btn mt-3 lg:mt-0" rel="noreferrer" target="_blank">Resume</a></li>
             <li><Link to='/sendMail' className="btn lg:ml-4 mt-3 lg:mt-0" rel="noreferrer" target="_blank">Send Query</Link></li>
