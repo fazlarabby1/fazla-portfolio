@@ -2,16 +2,80 @@
     {
         "id": 1,
         "projectTitle": "Laptop Hub",
-        "image": "https://purepng.com/public/uploads/large/laptop-symbol-azy.png" 
+        "image": "https://purepng.com/public/uploads/large/laptop-symbol-azy.png",
+        "description": [
+            "Sellers can add, remove, and advertise their products.",
+            "Users can book, pay, and report any products.",
+            "Implemented different routes for admin, sellers, and users."
+        ],
+        "pictures": [
+            "https://i.ibb.co/0QmJpSs/laptop-resale-theme.png",
+            "https://i.ibb.co/M1NSjnv/laptop-resale-seller-dashboard.png",
+            "https://i.ibb.co/9TRJyst/laptop-resale-customer-dashboard.png",
+            "https://i.ibb.co/Jmx9f4v/laptop-resale-admin-dashboard.png"
+        ],
+        "detailedDescriptiom": [
+            "This is a laptop resale website. This website contains several functionalities. In this website, one can buy and sell products.",
+            "The home page contains a slider, categories option cards, advertise items section, about us section, and a footer.",
+            "To visit the category page or purchase a product or add a product one must become a user of this website.",
+            "For limiting users, access I have use firebase authentication system and also I have used mongodb database to save all the information related to the products and user. Along with the firebase, I have implemented the JWT verification to set different user access depending on their account type.",
+            "Here, I have implemented stripe payment system. And depending on the payment the products status will be changed in the UI.",
+            "In the dashboard route, different user will see different options. For example, admin will see All Users, and All Sellers."
+        ],
+        "liveLink": "https://laptop-resale-404.web.app/",
+        "clientCodeLink": "https://github.com/fazlarabby1/laptop-hub-client",
+        "serverCodeLink": "https://github.com/fazlarabby1/laptop-hub-server"
     },
     {
         "id": 2,
         "projectTitle": "Travel Partner",
-        "image": "https://dypdvfcjkqkg2.cloudfront.net/large/2565045-6292.png" 
+        "image": "https://i.ibb.co/xXwNR3d/travel-logo.png",
+        "description": [
+            "Users can add reviews and services.",
+            "Logged in users will see more options on the Navbar.",
+            "User reviews are sorted in descending format."
+        ],
+        "pictures": [
+            "https://i.ibb.co/Fq96jZF/travel-partner-home.png",
+            "https://i.ibb.co/wpK6sYF/travel-partner-services.png",
+            "https://i.ibb.co/8cbntB5/travel-partner-add-Service.png",
+            "https://i.ibb.co/r74vjJn/travel-partner-userreviews.png"
+        ],
+        "detailedDescriptiom": [
+            "The project is based on Travel Management System. Here, I have shown services that can be executed by a single person. On other hand, you can call this a personal website.",
+            "In the home page, there is a navbar at the top. Under that, I have used carousel. Then, I have shown a glimpse of my services by showing just 3 services. And at the bottom of the home page there is a footer.",
+            "In the services page, I have show all the services in the left side, and there is a review section on the right side that shows all the reviews of different persons. There is a link to provide review as well. However, to provide review, one must login first.",
+            "The login user will see more options in the NavBar than other users. There is a My Reviews option which will take the user to a page where the person will see all his reviews on different services. Then there is another option called Add Service, which contains a form. A logged in user can add different services from that page. There is a Blogs page, which contains some blogs.",
+            "I have implemented JWT access token in this project as well."
+        ],
+        "liveLink": "https://travel-partner-101.web.app/",
+        "clientCodeLink": "https://github.com/fazlarabby1/travel-partner-client",
+        "serverCodeLink": "https://github.com/fazlarabby1/travel-partner-server"
     },
     {
         "id": 3,
         "projectTitle": "e-Learning",
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/42fd3825815139.5634b2e60ab82.png" 
+        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/42fd3825815139.5634b2e60ab82.png",
+        "description": [
+            "This website contains multiple courses of CSE.",
+            "Implemented the Firebase authentication system to restrict unauthorized access.",
+            "Responsive design for all types of devices."
+        ],
+        "pictures": [
+            "https://i.ibb.co/80qSWr7/e-cse-home.png",
+            "https://i.ibb.co/TLJ84tx/e-cse-services.png",
+            "https://i.ibb.co/d5bGtH6/e-cse-coursedetails.png",
+            "https://i.ibb.co/wgP0ZRf/e-cse-purchase.png"
+        ],
+        "detailedDescriptiom": [
+            "This project is based on Computer Science and Engineering. I have collected 6 CSE related courses information and created a fake DB server. Each course has a course title, image, id, description, total student number, and ratings.",
+            "There are total 6 options in the header. Each of them contains some information.",
+            "There are total 3 login systems. These are Email and Password, Google, and GitHub. After login the user's photo will be visible in the header and by clicking that photo one can check their profile.",
+            "In the courses page, all the courses name are visible on the left side, and the courses summary are shown in cards. Clicking the course details button of the summary card will take the user to a dynamic route which contains the whole information of the course.",
+            "There is a Get Premium access button in the course details card. One must login to this site to visit this link. Hope, I will develop this site further more. Keep me in your prayers."
+        ],
+        "liveLink": "https://assignment-10-e-cse.web.app/",
+        "clientCodeLink": "https://github.com/fazlarabby1/e-Learning-client",
+        "serverCodeLink": "https://github.com/fazlarabby1/e-Learning-server"
     }
 ]

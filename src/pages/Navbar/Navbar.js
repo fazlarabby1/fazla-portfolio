@@ -1,13 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import portfolioImg from '../../assets/images/portfolio.png'
 
 const Navbar = () => {
     const navItems =
         <>
-            <li><a href='https://drive.google.com/file/d/1cPmnkNYb82rdasLplOEHWF2Ob-vpiQRr/view?usp=share_link' className="btn" rel="noreferrer" target="_blank">Resume</a></li>
+            <li><a href='https://drive.google.com/file/d/1cPmnkNYb82rdasLplOEHWF2Ob-vpiQRr/view?usp=share_link' className="btn mt-3 lg:mt-0" rel="noreferrer" target="_blank">Resume</a></li>
+            <li><Link to='/sendMail' className="btn lg:ml-4 mt-3 lg:mt-0" rel="noreferrer" target="_blank">Send Query</Link></li>
         </>
     return (
-        <div className="navbar bg-indigo-600 text-white rounded-b px-7">
+        <div className="navbar bg-sky-700 text-white rounded-b px-7">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
