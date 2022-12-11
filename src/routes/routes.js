@@ -29,7 +29,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/projectDetails/:id',
-                loader: ({params})=> fetch(`http://localhost:5000/projects/${params.id}`),
+                loader: ({params})=> fetch(`https://fazla-portfolio-server.vercel.app/projects/${params.id}`),
                 element: <ProjectDetails />
             }
         ]

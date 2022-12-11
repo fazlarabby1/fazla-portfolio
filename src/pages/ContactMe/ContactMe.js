@@ -10,7 +10,7 @@ const ContactMe = () => {
         console.log(name, email, description);
     }
     return (
-        <div className='mt-20'>
+        <div className='my-10'>
 
             <div className="card bg-sky-800 text-neutral-content lg:w-1/2 mx-auto">
                 <div className="card-body items-center text-center">

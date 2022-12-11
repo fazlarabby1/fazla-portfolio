@@ -1,13 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Loading from '../../../shared/Loading';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
+
     useEffect(() => {
-        fetch('http://localhost:5000/projects')
+        setIsLoading(true);
+        fetch('https://fazla-portfolio-server.vercel.app/projects')
             .then(res => res.json())
-            .then(data => setProjects(data))
+            .then(data => {
+                setProjects(data);
+                setIsLoading(false);
+            })
     }, []);
+    
+    if (isLoading) {
+        return <Loading />
+    }
 
     return (
         <div className='mt-10 mb-16'>
@@ -22,13 +33,13 @@ const Projects = () => {
                         <div className="card-body">
                             <h2 className="card-title text-center">{project?.projectTitle}</h2>
                             {
-                                project?.description.map((data, i) => 
+                                project?.description.map((data, i) =>
                                     <ol key={i} style={{ listStyleType: 'square' }}>
                                         <li>{data}</li>
                                     </ol>
-                                    )
+                                )
                             }
-                            
+
                             <div className="card-actions">
                                 <Link to={`/projectDetails/${project._id}`} className="btn btn-primary">Project Details</Link>
                             </div>
