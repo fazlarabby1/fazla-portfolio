@@ -13,7 +13,7 @@ const Navbar = () => {
             <li><a href='https://drive.google.com/file/d/1VZ7kStcnUBYvWV299HK0dKZ98I9mRvhq/view?usp=share_link' className="btn btn-info rounded-lg mt-3 lg:mt-0" rel="noreferrer" target="_blank">Resume</a></li>
         </>
     return (
-        <div className="navbar bg-[#16162F] text-white rounded-b lg:px-11 py-3">
+        <div className="navbar sticky top-0 z-50 bg-[#16162F] text-white rounded-b lg:px-11 py-3">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
