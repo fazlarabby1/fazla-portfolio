@@ -5,6 +5,7 @@ import Blogs from "../pages/Blogs/Blogs";
 import Home from "../pages/Home/Home";
 import ProjectDetails from "../pages/Projects/ProjectDetails/ProjectDetails";
 import SendEmail from "../pages/SendEmail/SendEmail";
+import Projects from "../pages/Projects/Projects/Projects";
 
 export const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
             {
                 path: '/aboutMe',
                 element: <AboutMe />
+            },
+            {
+                path: '/projects',
+                element: <Projects />
             },
             {
                 path: '/sendMail',

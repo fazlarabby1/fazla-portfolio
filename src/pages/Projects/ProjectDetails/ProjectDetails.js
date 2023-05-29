@@ -1,5 +1,6 @@
 import { useLoaderData } from 'react-router-dom';
 import ProjectImage from './ProjectImage/ProjectImage';
+import { Fade } from 'react-reveal';
 
 const ProjectDetails = () => {
     const singleProject = useLoaderData();
@@ -14,15 +15,17 @@ const ProjectDetails = () => {
             </div>
             <h1 className='text-center my-7 text-2xl font-semibold text-white'>Image Preview of <span className='text-warning'>{projectTitle}</span></h1>
             <ProjectImage pictures={pictures} />
-            <div className='lg:w-3/5 w-4/5 mx-auto my-10 shadow-lg'>
-                {
-                    detailedDescription.map((description, i) =>
-                        <ol key={i} style={{ listStyleType: 'square' }}>
-                            <li className='text-pink-700 font-semibold text-xl'>{description}</li>
-                        </ol>
-                    )
-                }
-            </div>
+            <Fade bottom>
+                <div className='lg:w-3/5 w-4/5 mx-auto my-10'>
+                    {
+                        detailedDescription.map((description, i) =>
+                            <ol key={i} style={{ listStyleType: 'disc' }}>
+                                <li className='text-white font-semibold text-xl'>{description}</li>
+                            </ol>
+                        )
+                    }
+                </div>
+            </Fade>
         </div>
     );
 };

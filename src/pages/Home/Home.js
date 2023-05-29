@@ -1,8 +1,8 @@
 import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
 import Banner from '../Banner/Banner';
-import ContactMe from '../ContactMe/ContactMe';
 import Projects from '../Projects/Projects/Projects';
+import SendEmail from '../SendEmail/SendEmail';
 
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
             <Banner />
             <AboutMe />
             <Projects />
-            <ContactMe />
+            <SendEmail />
         </div>
     );
 };
