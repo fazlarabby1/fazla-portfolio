@@ -10,7 +10,7 @@ const Navbar = () => {
             <li><NavLink className={({ isActive }) => isActive ? 'underline underline-offset-4 font-bold text-info' : ''} to='/projects'>Projects</NavLink></li>
             <li><NavLink className={({ isActive }) => isActive ? 'underline underline-offset-4 font-bold text-info' : ''} to='/blogs'>Blogs</NavLink></li>
             <li><Link to='/sendMail' className="btn mt-3 lg:mt-0 lg:ml-3 lg:mr-6" rel="noreferrer" target="_blank">Send Query</Link></li>
-            <li><a href='https://drive.google.com/file/d/1cPmnkNYb82rdasLplOEHWF2Ob-vpiQRr/view?usp=share_link' className="btn btn-info rounded-lg mt-3 lg:mt-0" rel="noreferrer" target="_blank">Resume</a></li>
+            <li><a href='https://drive.google.com/file/d/1VZ7kStcnUBYvWV299HK0dKZ98I9mRvhq/view?usp=share_link' className="btn btn-info rounded-lg mt-3 lg:mt-0" rel="noreferrer" target="_blank">Resume</a></li>
         </>
     return (
         <div className="navbar bg-[#16162F] text-white rounded-b lg:px-11 py-3">

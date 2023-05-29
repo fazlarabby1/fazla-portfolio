@@ -24,7 +24,7 @@ const Banner = () => {
                             Welcome to my portfolio. I am a full stack Web Developer. My passion is to build error free and user friendly websites.
                         </p>
                         <div className="card-actions justify-start">
-                            <a href='https://drive.google.com/file/d/1cPmnkNYb82rdasLplOEHWF2Ob-vpiQRr/view?usp=share_link' className="btn btn-info text-white" rel="noreferrer" target="_blank">My Resume</a>
+                            <a href='https://drive.google.com/file/d/1VZ7kStcnUBYvWV299HK0dKZ98I9mRvhq/view?usp=share_link' className="btn btn-info text-white" rel="noreferrer" target="_blank">My Resume</a>
                         </div>
                     </div>
                 </Fade>
